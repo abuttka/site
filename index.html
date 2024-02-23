@@ -2,41 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GRAVELIT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <header>
+    <div class = 'header'> <!-- шапка сайта -->
+        <div class = 'container'> <!-- двигать элементы -->
+            <div class = 'header-line'> <!-- меню -->
+                <div class = 'header-logo'> <!-- логотип -->
+                    <img src="./images/gravelit.svg" alt="">
+                    <img src="./images/EAU DE PETERSBURG.svg" alt="">
+                </div>
+                    <div class="nav">
+                        <a class = 'nav-item' href="/catalog" class="nav-text">КАТАЛОГ</a>
+                        <a class = 'nav-item' href="/hits" class="nav-text">ХИТЫ ПРОДАЖ</a>
+                        <a class = 'nav-item' href="/about" class="nav-text">О НАС</a>
+                    </div>
+                        <div class="nav-item right-nav-container">
+                            <a href="/cart" class="nav-text">
+                                <img src="./images/Корзина.svg" alt="Корзина">
+                            </a>
+                            <a href="/like" class="nav-text">
+                                <img src="./images/Избранное.svg" alt="Избранные" >
+                            </a>
+                            <a href="/profile" class="nav-text">
+                                <img src="./images/Профиль.svg" alt="Мой профиль">
+                            </a>
+                        </div>
 
-    </header>
-    <section class="about">
-      <h1>Личная страница Михаила Михайловича</h1>
-        Мой второй сайт: <a href="https://yandex.ru/">Сайт Яндекса</a>
-        <img src="images/Speranskiy-M.png" alt="Фотография Михаила Михайловичаы" />
-        <a href="#technopark">Переход на главу 2</a>
-    </section>
-    <section id="technopark">
-        <div>Технопарк -- это круто!</div> <div>Технопарк -- это круто!</div>
-
-        <span>Технопарк -- это знания!</span> <span>Технопарк -- это знания!</span>
-
-        <form action="/search">
-            <input type="text"> – поле для ввода текста
-            <label>Введите имя
-                <input type="text">
-            </label>
-            <label>Введите пароль
-                <input type="password">
-            </label>
-            <label>Введите пароль
-                <input type="pin" placeholder="1234">
-            </label>
-            <textarea rows="5" cols="30">textarea с 5 строками и 30 столбцами</textarea>
-        </form>
-    </section>
-    <footer>
-        <address>РГПУ им. Герцена</address>
-        2024 &copy; все права защищены
-    </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>

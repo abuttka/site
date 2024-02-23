@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Cormorant-Bold";
+    src: url("./fonts/Cormorant-Bold.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cormorant-Regular";
+    src: url("./fonts/Cormorant-Regular.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("./fonts/Montserrat-Medium.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+.body {
+    margin: 0;
+    font-family: "Cormorant-Regular";
+}
+.container{
+    margin: 23px 639px;
+}
+.header{
+    background-color: #E8E6E1;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    display: inline;
+    color: #264B52;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 25px;
+}
