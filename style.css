@@ -19,13 +19,22 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "helveticaneuecyr_black";
+    src: url("./fonts/helveticaneuecyr_roman.otf");
+    font-style: normal;
+    font-display: swap;
+}
+
 .body {
     margin: 0;
     font-family: "Cormorant-Regular";
 }
+
 .container{
     margin: 23px 639px;
 }
+
 .header{
     background-color: #E8E6E1;
     height: 100vh;
@@ -35,14 +44,62 @@
 
 .header-line{
     display: flex;
-    align-items: center;
 }
 
 .nav-item{
     display: inline;
     color: #264B52;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
-    margin-right: 400px;
 }
+
+.header-title{
+    font-family: "helveticaneuecyr_black";
+    font-size: 25px;
+    font-weight: 700;
+    color: #264B52;
+    text-align: center;
+}
+
+.header-capacity{
+    font-size: 20px;
+    color: #264B52;
+    font-family: "Montserrat-Medium";
+}
+
+.header-availability{
+    font-size: 16px;
+    color: #264B52;
+}
+
+.title-desc{
+    text-decoration: underline;
+}
+
+.Крем{
+    width: 440px;
+    height: 425px;
+}
+
+.Темныйкрем{
+    width: 210px;
+    height: 210px;
+}
+
+.бутылка{
+    width: 210px;
+    height: 210px;
+}
+
+.stars-img {
+    background-color: #264B52;
+    background-image: url("./images/stars.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.15;
+    width: 100vw;
+    height: auto;
+}
+
