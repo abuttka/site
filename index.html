@@ -8,40 +8,50 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
 </head>
 <body>
-    <div class = 'header'> <!-- шапка сайта -->
-        <div class = 'container'> <!-- двигать элементы -->
-            <div class = 'header-line'> <!-- меню -->
-                <div class = 'header-logo'> <!-- логотип -->
-                    <img src="./images/gravelit.svg" alt="">
-                    <img src="./images/EAU DE PETERSBURG.svg" alt="">
+    <section class="header-section">
+        <header class="nature-img">
+            <nav class="nav-container">
+                <div class="nav-item left-nav-container">
+                    <a href="/catalog" class="nav-text">КАТАЛОГ</a>
+                    <a href="/hits" class="nav-text">АКЦИИ</a>
+                    <a href="/about" class="nav-text">О НАС</a>
                 </div>
-        <div class="nav">
-            <a class = 'nav-item' href="/catalog" class="nav-text">КАТАЛОГ</a>
-            <a class = 'nav-item' href="/hits" class="nav-text">ХИТЫ ПРОДАЖ</a>
-            <a class = 'nav-item' href="/about" class="nav-text">О НАС</a>
-        </div>
-        <div class="nav-item right-nav-container">
-            <a href="/cart" class="nav-text">
-            <img src="./images/Корзина.svg" alt="Корзина">
-            </a>
-            <a href="/like" class="nav-text">
-            <img src="./images/Избранное.svg" alt="Избранные" >
-            </a>
-            <a href="/profile" class="nav-text">
-            <img src="./images/Профиль.svg" alt="Мой профиль">
-            </a>
-        </div>
-    <div class = 'header-down'>
-    <div class = 'header-title'>
-        Крем для лица ночной
-            <div class = 'header-capacity'>
-                Емкость: 250 мл
-            <div class = 'header-price'>
-                800 руб
-            <div class = 'header-availability'>
-                Есть в наличии
-    </div>
-    </div>
+    
+                <a href="/" class="nav-item">
+                    <img src="./images/logo.svg" alt="Логотип сайта GRAVELIT" class="centered-logo">
+                </a>
+    
+                <div class="nav-item right-nav-container">
+                    <a href="/cart" class="nav-text">
+                        <img src="./images/cart.svg" alt="Корзина">
+                    </a>
+                    <a href="/like" class="nav-text">
+                        <img src="./images/like.svg" alt="Избранные" >
+                    </a>
+                    <a href="/profile" class="nav-text">
+                        <img src="./images/profile.svg" alt="Мой профиль">
+                    </a>
+                </div>
+            </nav>
+
+        
+        </header>
+    </section>
+    <main>
+        <div class = 'header-down'>
+            <div class = 'header-title'>
+            Крем для лица ночной
+                <div class = 'header-capacity'>
+                    Емкость: 250 мл
+                <div class = 'header-price'>
+                    800 руб
+                <div class = 'header-availability'>
+                    Есть в наличии
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>        
             <div class = 'add'>
                 Добавить в корзину
                 <img src="./images/Избранное.svg" alt="Избранноекорзина" >
@@ -58,9 +68,12 @@
                 <div class = 'main-desc'>
                     Эфирные масла: лаванды, розы, чайного дерева и др. Они добавляют крему приятный аромат и имеют полезные свойства для кожи.
                 </div>
-        <div class="stars-img">
-            <img src="./images/stars.png" alt="" class="Звезды">
-        </div>
+            </div>
+
+    </main>
+    
+       
+       
     <footer class="blue-section">
         <div>
             <h4 class="footer-header">Каталог</h4>
@@ -86,6 +99,9 @@
             <h4 class="footer-header">Как с нами связаться</h4>
             <p class="footer-text">+7 981 555 35 35</p>
             <p class="footer-text">loremipsum@mail.ru</p>
+        </div>
+        <div class="stars-img">
+            <img src="./images/stars.png" alt="" class="Звезды">
         </div>
     </footer>
 </body>
