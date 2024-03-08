@@ -1,109 +1,70 @@
 @font-face {
     font-family: "Cormorant-Bold";
-    src: url("./fonts/Cormorant-Bold.ttf");
+    src: url("./fonts/Cormorant/Cormorant-Bold.ttf");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Cormorant-Regular";
-    src: url("./fonts/Cormorant-Regular.ttf");
+    src: url("./fonts/Cormorant/Cormorant-Regular.ttf");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Montserrat-Medium";
-    src: url("./fonts/Montserrat-Medium.ttf");
+    src: url("./fonts/Montserrat/Montserrat-Medium.ttf");
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "helveticaneuecyr_black";
-    src: url("./fonts/helveticaneuecyr_roman.otf");
+    font-family: "Inter-Medium";
+    src: url("./fonts/Inter/Inter-Medium.ttf");
     font-style: normal;
     font-display: swap;
 }
 
-.body {
-    margin: 0;
-    font-family: "Cormorant-Regular";
+html {
+    overflow-x: hidden;
 }
 
-.container{
+.nav-container {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 17px 40px;
+    font-family: 'Cormorant-Bold';
 }
 
-.header{
-    background-color: #E8E6E1;
-    height: 100vh;
-    background-size: cover;
-
+.nav-item {
+    flex: 1;
 }
 
-.header-logo{
-    padding: 23px 635px 1379px 639px;
-}
-
-.header-line{
-    display: flex;
-}
-
-.nav-item{
-    display: inline;
-    color: #264B52;
+.nav-text {
     text-decoration: none;
-    font-weight: 500;
+    color: #264B52;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 18px;
 }
 
-.header-title{
-    font-family: "helveticaneuecyr_black";
-    font-size: 25px;
-    font-weight: 700;
-    color: #264B52;
-    text-align: center;
+.left-nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.header-capacity{
-    font-size: 20px;
-    color: #264B52;
-    font-family: "Montserrat-Medium";
+.right-nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.header-availability{
-    font-size: 16px;
-    color: #264B52;
+.centered-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.title-desc{
-    text-decoration: underline;
-}
-
-.Крем{
-    width: 440px;
-    height: 425px;
-}
-
-.Темныйкрем{
-    width: 210px;
-    height: 210px;
-}
-
-.бутылка{
-    width: 210px;
-    height: 210px;
-}
-
-.stars-img {
-    background-color: #264B52;
-    background-image: url("./images/stars.png");
-    background-size: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.15;
-    width: 100vw;
-    height: auto;
-}
-
