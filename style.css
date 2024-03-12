@@ -68,3 +68,8 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.background{
+    background-color: #E8E6E1;
+    background-size: cover;
+}
