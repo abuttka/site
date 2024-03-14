@@ -7,59 +7,71 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="background">
-    <section class="header-section">
-        <header>
-            <nav class="nav-container">
-                <div class="nav-item left-nav-container">
-                    <a href="/catalog" class="nav-text">КАТАЛОГ</a>
-                    <a href="/hits" class="nav-text">АКЦИИ</a>
-                    <a href="/about" class="nav-text">О НАС</a>
-                </div>
+<body>
+    <div class="container">
+        <section class="header-section">
+            <header class="background">
+                <nav class="nav-container">
+                    <div class="nav-item left-nav-container">
+                        <a href="/catalog" class="nav-text">КАТАЛОГ</a>
+                        <a href="/hits" class="nav-text">АКЦИИ</a>
+                        <a href="/about" class="nav-text">О НАС</a>
+                    </div>
+        
+                    <a href="/" class="nav-item">
+                        <img src="./images/logo.svg" alt="Логотип сайта GRAVELIT" class="centered-logo">
+                    </a>
+        
+                    <div class="nav-item right-nav-container">
+                        <a href="/cart" class="nav-text">
+                            <img src="./images/Корзина.svg" alt="Корзина">
+                        </a>
+                        <a href="/like" class="nav-text">
+                            <img src="./images/Избранное.svg" alt="Избранные" >
+                        </a>
+                        <a href="/profile" class="nav-text">
+                            <img src="./images/Профиль.svg" alt="Мой профиль">
+                        </a>
+                    </div>
+                </nav>
+            </header>
     
-                <a href="/" class="nav-item">
-                    <img src="./images/logo.svg" alt="Логотип сайта GRAVELIT" class="centered-logo">
-                </a>
-    
-                <div class="nav-item right-nav-container">
-                    <a href="/cart" class="nav-text">
-                        <img src="./images/Корзина.svg" alt="Корзина">
-                    </a>
-                    <a href="/like" class="nav-text">
-                        <img src="./images/Избранное.svg" alt="Избранные" >
-                    </a>
-                    <a href="/profile" class="nav-text">
-                        <img src="./images/Профиль.svg" alt="Мой профиль">
-                    </a>
+        </section>     
+        <main>
+            <div class="first-main-section">
+                <div class="main-img">
+                    <img src="./images/крем.png" alt="" class="subsection-img subsection-img-1"  width="440px" height="425px">
+                     
                 </div>
-            </nav>
-        </header>
+                <div class="text-main-first">
+                    <h1 class="first-section-main-text">Крем для лица ночной</h1>
+                    <h2 class="first-section-desc-text">Емкость: 250 мл</h2>
+                    <h3 class="first-section-price-text">800 руб</h3>
+                    <h4 class="first-section-availability-text">Есть в наличии</h4>
+                    <div class="cont">
+                        <button class="first-section-basket-text">Добавить в корзину</button> 
+                        <a href="/" class="img-izbr"><img src="./images/Group 121.png" alt="" width="30" height="27"></a>
+                     </div> 
+                    <h6 href="/like" class="nav-text">
+                    </h6>
+                 </div>
+            </div>
+            <div class="second-main-section">
+                <div class="main-img-sec">
+                    <img src="./images/темный крем.jpg" alt="" class="subsection-img-subsection-img-2" width="210px" height="210px">
+                    <img src="./images/бутылка.jpg" alt="" class="subsection-img-subsection-img-3 " width="210px" height="210px">
 
-            <section class="first-main-section">
-                <h1 class="first-section-main-text">Крем для лица ночной</h1>
-                <h2 class="first-section-capacity-text">Емкость: 250 мл</h2>
-                <h3 class="first-section-price-text">800 руб</h3>
-                <h4 class="first-section-availability-text">Есть в наличии</h4>
-                <h5 class="first-section-basket-text">Добавить в корзину</h5>
-                <h6 href="/like" class="nav-text">
-                    <img src="./images/Избранное.svg" alt="like"></h6>
+                </div>
+                <div class="text-main-second">  
+                    <h1 class="second-section-main-text">Описание Состав  </h1>
+                    <h2 class="second-section-desc-text">Крем обеспечивает увлажнение кожи, предотвращает ее сухость и шелушение.<br> Он также может помочь смягчить морщины и улучшить эластичность кожи, <br>делая ее более упругой и молодой.</h2>
 
-                <div class="main-creme">
-                    <img src="./images/крем.png" alt="" class="subsection-img-1">
-            </section>
 
-            <section class="second-main-section">
-                <p1 class="second-section-main-text">Описание Состав</p1>
-                <p2 class="second-section-desc-text">Эфирные масла: лаванды, розы, чайного дерева и др. Они добавляют крему приятный аромат и имеют полезные свойства для кожи.</p2>
+                </div>
+        </main>
 
-                <div class="second-creme-1">
-                    <img src="./images/темный крем.jpg" alt="" class="subsection-img-2">
-                <div class="second-creme-1">
-                    <img src="./images/бутылка.jpg" alt="" class="subsection-img-3">
-            </section>
-    </section>
-
-    <div class="stars-img"></div>
+    </div>
+   
     <footer class="blue-section">
         <div>
             <h4 class="footer-header">Каталог</h4>
@@ -86,7 +98,9 @@
             <p class="footer-text">+7 981 555 35 35</p>
             <p class="footer-text">loremipsum@mail.ru</p>
         </div>
+        
     </footer>
 </body>
 </html>
+    
     

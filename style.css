@@ -6,14 +6,6 @@
 }
 
 @font-face {
-    font-family: "Cormorant-Light";
-    src: url("./fonts/Cormorant/Cormorant-Light.ttf");
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
     font-family: "Cormorant-Regular";
     src: url("./fonts/Cormorant/Cormorant-Regular.ttf");
     font-style: normal;
@@ -28,50 +20,18 @@
 }
 
 @font-face {
-    font-family: "Montserrat-Light";
-    src: url("./fonts/Montserrat/Montserrat-Light.ttf");
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Montserrat-Bold";
-    src: url("./fonts/Montserrat/Montserrat-Bold.ttf");
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Montserrat-Regular";
-    src: url("./fonts/Montserrat/Montserrat-Regular.ttf");
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Montserrat-Light";
-    src: url("./fonts/Montserrat/Montserrat-Light.ttf");
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
     font-family: "Inter-Medium";
     src: url("./fonts/Inter/Inter-Medium.ttf");
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: "helveticaneuecyr_roman";
-    src: url("./fonts/helveticaneuecyr_roman.otf");
-    font-style: normal;
-    font-display: swap;
-}
-
 html {
     overflow-x: hidden;
+}
+.container{
+    background-color: #E8E6E1;
+    height: 1080px;
 }
 
 .nav-container {
@@ -117,6 +77,95 @@ html {
     background-color: #E8E6E1;
     background-size: cover;
 }
+.first-main-section{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.text-main-first{
+    margin-left: 20px;
+    margin-top: 52px;
+    color: #264B52;
+}
+.first-section-main-text{
+    
+    font-weight: 700;
+    font-family: 'Cormorant-Bold';
+    font-size: 32px;
+}
+.first-section-desc-text{
+     
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 45px;
+
+}
+.first-section-price-text{
+    
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 65px;
+}
+.first-section-availability-text{
+     
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.first-section-basket-text{
+    color: #F1EEE9;
+    margin-top: 37px;
+    background-color: #264B52;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cont{
+    display: inline-table;
+    
+}
+.img-izbr{
+    margin-left: 15px;
+    
+}
+
+    
+
+
+
+.second-main-section{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.subsection-img-subsection-img-3{
+    margin-left: 16px;
+}
+.text-main-second{
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.second-section-main-text{
+    color: #264B52; 
+
+}
+.second-section-main-text{
+    text-decoration: underline;
+    
+    font-size: 18px;
+}
+.second-section-desc-text{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 21px;
+    color: #264B52;
+}
 
 
 footer {
@@ -124,6 +173,13 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-around;
     padding-bottom: 75px;
+    background-color: #264B52;
+    background-image: url("./images/stars.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
 }
 
 .footer-header {
@@ -140,79 +196,3 @@ footer {
     margin-top: 35px;
 }
 
-.blue-section {
-    background-color: #264B52;
-}
-
-.stars-img {
-    background-color: #264B52;
-    background-image: url("./images/stars.png");
-    background-size: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.15;
-    width: 100vw;
-    height: auto;
-}
-
-.subsection-img-1{
-    height: 425px;
-    width: 440px;
-}
-
-.subsection-img-2{
-    height: 210px;
-    width: 210px;
-}
-
-.subsection-img-3{
-    height: 210px;
-    width: 210px;
-}
-
-.first-section-main-text {
-    display: flex;
-    font-size: 32px;
-    color:#264B52;
-    font-weight: 700;
-    font-family: "helveticaneuecyr_roma";
-}
-
-.first-section-capacity-text {
-    display: flex;
-    font-family: "Montserrat-Regular";
-    color:#264B52;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.first-section-price-text {
-    display: flex;
-    font-family: "Montserrat-Bold";
-    color:#264B52;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.first-section-availability-text {
-    display: flex;
-    font-family: "Montserrat-Light";
-    color:#264B52;
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.second-section-main-text{
-    text-decoration: underline;
-    color:#264B52;
-    font-family: "Cormorant-Light";
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.second-section-desc-text{
-    color:#264B52;
-    font-family: "Cormorant-Light";
-    font-size: 28px;
-    font-weight: 700; 
-}
